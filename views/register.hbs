@@ -1,0 +1,22 @@
+<div class="jumbotron">
+    <h2>注册</h2>
+    <form action="/register" method="post">
+        <div>
+            <p>昵称<input type="text" name="username" placeholder="请输入账号" /></p>
+        </div>
+        <div>
+            <p>密码<input type="password" name="password" placeholder="请输入密码" /></p>
+        </div>
+        <div>
+            <p>确认密码<input type="password" name="ConfirmPassword" placeholder="请再次输入密码" /></p>
+        </div>
+        <div>
+            <p>邮箱<input type="text" name="email" placeholder="请输入邮箱" id="email" />
+            </p>
+            <p><input type="button" onclick="sendEmailid()" class="btn btn-danger" id="emailcore" value="发送验证码"></p>
+            <p><input type="text" name="code" placeholder="请输入验证码" id="code" /></p>
+        </div>
+    </form>
+    <p>
+        <a class="btn btn-lg btn-primary" href="login" role="button">注册 »</a>
+    </p>

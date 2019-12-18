@@ -1,0 +1,81 @@
+  <script>
+$(document).ready(function(){
+    $("#myNav").affix({
+        offset: { 
+            top: 125 
+      }
+    });
+});
+</script>
+<style>
+/* Custom Styles */
+    ul.nav-tabs{
+        width: 140px;
+        margin-top: 20px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 4px rgba(73, 62, 62, 0.067);
+    }
+    ul.nav-tabs li{
+        margin: 0;
+        border-top: 1px solid #ddd;
+    }
+    ul.nav-tabs li:first-child{
+        border-top: none;
+    }
+    ul.nav-tabs li a{
+        margin: 0;
+        padding: 8px 16px;
+        border-radius: 0;
+    }
+    ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+        color: #fff;
+        background: #0088cc;
+        border: 1px solid #0088cc;
+    }
+    ul.nav-tabs li:first-child a{
+        border-radius: 4px 4px 0 0;
+    }
+    ul.nav-tabs li:last-child a{
+        border-radius: 0 0 4px 4px;
+    }
+    ul.nav-tabs.affix{
+        top: 30px; /* Set the top position of pinned element */
+    }
+</style>
+<div class="jumbotron">
+    <div class="container">
+        <div class="jumbotron">
+            <h1>岛风圈</h1>
+        </div>
+            <div class="col-xs-9">
+                <h2 id="section-1">第一部分</h2>
+                <p>1</p>
+                <p>2</p>
+                <hr>
+                <h2 id="section-2">第二部分</h2>
+                <p>3</p>
+                <p>4</p>
+                <hr>
+                <h2 id="section-3">第三部分</h2>
+                <p>5</p>
+                <p>6</p>
+                <p>7</p>
+                <hr>
+                <h2 id="section-4">第四部分</h2>
+                <p>8</p>
+                <p>9</p>
+                <p>10</p>
+                <p>11</p>
+                <hr>
+                <h2 id="section-5">第五部分</h2>
+                <p>12
+                </p>
+                <p>13</p>
+                <p>14</p>
+                <p>15</p>
+                <p>16</p>
+            </div>
+        </div>
+    </div>
+</div>
